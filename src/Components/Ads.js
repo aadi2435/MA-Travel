@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
+import "./AdsStyles.css";
 
 function Ads() {
   const [showPopup, setShowPopup] = useState(true);
 
   const handleClose = () => {
+    setShowPopup(false);
+  };
+
+  const handleSkip = () => {
     setShowPopup(false);
   };
 
@@ -19,6 +24,7 @@ function Ads() {
             <a href="https://example.com">
               <img src="https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?size=626&ext=jpg" alt="Advertisement" />
             </a>
+            <button onClick={handleSkip}>Skip Ad</button>
           </div>
         </div>
       )}
