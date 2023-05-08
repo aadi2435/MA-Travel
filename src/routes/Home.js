@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
 import Navbar from "../Components/Navbar";
 import Price from "../Components/Price";
+import Text from "../Components/Text";
 //import Trip from "../Components/Trip";
 
 function Home (){
@@ -18,6 +19,7 @@ function Home (){
     url="/Travelplain"
     btnClass="show"
     />
+    <Text/>
     <Destination/>
     {/*<Trip/>*/}
     <Price/>
