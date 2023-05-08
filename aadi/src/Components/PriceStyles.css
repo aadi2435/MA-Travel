@@ -1,0 +1,37 @@
+.package {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+
+  
+  
+  .package img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5a5f;
+    margin-top: 10px;
+  }
+  
+  .buyButton {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .buyButton:hover {
+    background-color: #161515;
+  }
+  
