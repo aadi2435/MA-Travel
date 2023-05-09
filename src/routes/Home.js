@@ -1,3 +1,4 @@
+import Ads from "../Components/Ads";
 import Destination from "../Components/Destination";
 import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
@@ -23,6 +24,7 @@ function Home (){
     <Destination/>
     {/*<Trip/>*/}
     <Price/>
+    <Ads/>
     <Footer/>
     </>
    )
