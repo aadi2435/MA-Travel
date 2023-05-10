@@ -5,9 +5,11 @@
 
 .about-container h1{
     padding: 1rem;
+    font-size: 3rem;
 }
 .about-container p{
     padding: 2rem;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 850px) {
