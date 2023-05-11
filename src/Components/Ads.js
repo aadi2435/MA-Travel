@@ -28,7 +28,7 @@ function Ads() {
             <span className="close-button" onClick={handleClose}>
               &times;
             </span>
-            <a href="https://example.com">
+            <a href="http://localhost:3000/contact">
               <img src="https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?size=626&ext=jpg" alt="Advertisement" />
             </a>
             <button onClick={handleSkip}>Skip Ad</button>
